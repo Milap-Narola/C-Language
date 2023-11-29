@@ -59,6 +59,12 @@
   "files.associations": {
     "CHP-2.2Q.1.C": "cpp",
     "chp-4.1Q.1.C": "cpp",
-    "chp6.1Q.3.C": "cpp"
   }
+    "chp6.1Q.3.C": "cpp",
+    "chp6.1Q.2.C": "cpp",
+    "CHP6.1Q.1.C": "cpp",
+    "chp6.1Q.4.C": "cpp",
+    "Q-3.C": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
