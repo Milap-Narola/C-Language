@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/Milap/Documents/GitHub/C-Language",
-      "program": "/Users/Milap/Documents/GitHub/C-Language/build/Debug/outDebug"
+      "cwd": "/Users/Milap/Documents/GitHub/C-Language/CHP-5.1",
+      "program": "/Users/Milap/Documents/GitHub/C-Language/CHP-5.1/build/Debug/outDebug"
     }
   ]
 }
