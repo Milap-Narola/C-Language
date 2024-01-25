@@ -2,14 +2,16 @@
 int main()
 {
 
-    int a, b, c;
+    int a , b;
 
     printf("Enter Any Number:");
     scanf("%d",&a);
     printf("Enter Any Number:");
     scanf("%d",&b);
 
-    c=a ,a=b,b=c;
-    printf("The A is %d\n B is %d\n",a,b);
+    a = a * b;
+    b = b / a;
+    a = a / b;
+    printf("The A = %d\n B = %d\n",a,b);
     return 0;
 }
