@@ -1,16 +1,14 @@
-#include<stdio.h>
-int main(int argc, char const *argv[])
+//Q.4 a Program to print the fibonacci series up to N numbers using for loop.
+#include <stdio.h>
+int main()
 {
-    int a,n,f=0,s=1,next;
-    printf("Enter Any Number :");
-    scanf("%d",&a);
-  for ( a = 1; a < n; a++)
+  int a, n;
+  for (a = 0; a < 4; a++)
   {
-   printf("%d",f);
-   next=f+s;
-   f=s;
-   s=n; 
+    n = n * 10 + 1;
+    printf("%d,", n);
   }
-  printf("\n");
-    return 0;
+
+
+
 }

@@ -1,3 +1,4 @@
+//Q.2 a Program to print the factorial of number N using for loop.
 #include <stdio.h>
 int main()
 {

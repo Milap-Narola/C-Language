@@ -1,3 +1,4 @@
+//Q.3 a Program to print even numbers from 1 to N using a do-while loop.
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {

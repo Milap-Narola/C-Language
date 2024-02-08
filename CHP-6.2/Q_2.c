@@ -1,3 +1,4 @@
+//Q.2  a Program to print 10 to 1 using for loop.
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {

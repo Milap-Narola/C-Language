@@ -1,3 +1,4 @@
+//Q.1 a Program to print 1 to 10 using a do-while loop.
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
