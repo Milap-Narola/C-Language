@@ -1,3 +1,4 @@
+//Q.3  a Program to find if a given character is vowel or consonent using a ladder if else.
 #include<stdio.h>
 int  main()
 {

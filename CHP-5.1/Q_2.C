@@ -1,3 +1,4 @@
+//Q.2 a Program to find if a given number is neutral or not using a ladder if else.
 #include<stdio.h>
 int main()
 {

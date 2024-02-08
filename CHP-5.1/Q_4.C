@@ -1,3 +1,4 @@
+//Q.4 a Program To Check Odd And Even Number.
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
