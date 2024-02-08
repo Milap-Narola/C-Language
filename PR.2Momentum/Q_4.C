@@ -1,7 +1,9 @@
+//Q.4 Write C program uses a switch statement. Display Monday to Sunday.
 #include <stdio.h>
 int main()
 {
     char a;
+    
     printf("A For Sunday.\n");
     printf("B For Monday.\n");
     printf("C For Tuesday.\n");

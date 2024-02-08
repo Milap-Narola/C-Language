@@ -1,3 +1,4 @@
+//Q.5 Write C Program to print multiplication table without using any loop.
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {

@@ -1,3 +1,4 @@
+//Q.5 Write a Program to input electricity unit charges and calculate the total electricity bill according to the given condition:
 #include <stdio.h>
  int main()
 {

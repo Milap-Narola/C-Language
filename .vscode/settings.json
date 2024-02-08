@@ -66,7 +66,18 @@
     "Q-3.C": "cpp",
     "Q-1.C": "cpp",
     "Q-2.C": "cpp",
-    "chp-5.3Q3.C": "cpp"
+    "chp-5.3Q3.C": "cpp",
+    "Q.1.C": "cpp",
+    "Q_1.C": "cpp",
+    "Q.2.C": "cpp",
+    "Q_2.C": "cpp",
+    "Q.4.C": "cpp",
+    "Q_4.C": "cpp",
+    "tempCodeRunnerFile.C": "cpp",
+    "Q_3.C": "cpp",
+    "Q.3.C": "cpp",
+    "Q.5.C": "cpp",
+    "Q_5.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
