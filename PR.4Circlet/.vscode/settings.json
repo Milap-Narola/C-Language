@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.py": "python",
+    "Q_1.C": "cpp",
+    "Q_2.C": "cpp",
+    "Q_3.C": "cpp",
+    "Q_4.C": "cpp",
+    "Q_5.C": "cpp",
+    "Q_6.C": "cpp",
+    "Q_7.C": "cpp"
+  },
+  "C_Cpp_Runner.msvcBatchPath": ""
+}
