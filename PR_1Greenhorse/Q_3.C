@@ -1,15 +1,19 @@
-//Q.3 Write C Program to find the third angle of a right triangle if two other angles are given.
+// Q.3 Write C Program to find the third angle of a right triangle if two other angles are given.
+
 #include<stdio.h>
 int main()
 {
-   float h,w,area;
+   
+    int first_Angle, second_Angle,result;
 
-   printf("Enter Height And Width Of Right Angled");
-   scanf("%f%f",&h,&w);
+    printf(" Enter the First Angle of Triangle \t:");
+    scanf("%d", &first_Angle);
 
-   area = h * w /2.0;
+    printf(" Enter the Second Angle of Triangle \t:");
+    scanf("%d", &second_Angle);
 
-   printf("Area Of Right Angled Triangle is %f",area);
+    result = (180 - first_Angle - second_Angle);
+    printf(" Third Angle of Trinagle is \t : %d", result);
 
     return 0;
 }

@@ -1,15 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int a, sum = 0, last;
-    printf("Enter Any Number");
+    int a, sum = 0,first, last;
+    printf("Enter Any Number\t");
     scanf("%d", &a);
-    last = a % 10;
-    while (a >= 9)
+    last = 1 % 10;
+    while (first >= 10)
     {
 
-       a= a / 10;
-        sum = a + last;
+        first = first / 10;
+        sum = first + last;
     }
-        printf("%d\n", sum);
+    printf("sum of a first and last =%d:\t", sum);
+
 }

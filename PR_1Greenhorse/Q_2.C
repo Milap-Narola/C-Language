@@ -1,18 +1,29 @@
-//Q.2 Write C Program to find gross salary by adding % of HRA, DA, and TA of user choice.
-#include<stdio.h>
+// Q.2 Write C Program to find gross salary by adding % of HRA, DA, and TA of user choice.
+
+#include <stdio.h>
 int main()
 {
-  long float bs,hra,da,gs;
+    float baseSalary, HRA, DA, TA;
+    float grossSalary;
 
-  printf("Enter Basic Salary");
-  scanf("%ld",bs);
+    printf(" Enter Basic Salary of Employe \t:");
+    scanf("%f", &baseSalary);
 
+    printf("Enter HRA \t:");
+    scanf("%f", &HRA);
 
-  hra = bs * (20.00/100.00);
-  da = bs * (40.00/100.00);
+    printf(" Enter DA \t:");
+    scanf("%f", &DA);
 
-  gs = bs + hra + da;
+    printf(" Enter TA \t:");
+    scanf("%f", &TA);
 
-  printf("Gross Salary = %ld",gs);   
+    float hra = (HRA / 100) * baseSalary;
+    float da = (DA / 100) * baseSalary;
+    float ta = (TA / 100) * baseSalary;
+
+    grossSalary = baseSalary + hra + da + ta;
+
+    printf(" Gross Salary of Employe is \t: %.2f", grossSalary);
     return 0;
 }
