@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Milap/C-Language/Ch_Example",
+      "program": "/Users/Milap/C-Language/Ch_Example/build/Debug/outDebug"
+    }
+  ]
+}
