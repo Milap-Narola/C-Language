@@ -42,7 +42,10 @@
     "Q_25.C": "cpp",
     "Q_26.C": "cpp",
     "Q_27.C": "cpp",
-    "Q_28.C": "cpp"
+    "Q_28.C": "cpp",
+    "Milap.C": "cpp",
+    "Calcultor.C": "cpp",
+    "Ch.C": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "clang",
   "C_Cpp_Runner.cppCompilerPath": "clang++",
@@ -100,5 +103,6 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "C_Cpp.errorSquiggles": "disabled"
 }

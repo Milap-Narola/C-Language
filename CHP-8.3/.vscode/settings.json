@@ -60,6 +60,6 @@
     "*.py": "python",
     "Q_1.C": "cpp",
     "Q_2.C": "cpp",
-    "Q_3.C": "cpp"
+    "Q.7.C": "cpp"
   }
 }

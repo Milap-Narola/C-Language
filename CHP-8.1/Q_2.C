@@ -1,29 +1,31 @@
+/*
+Q.2 Write a Program to find the average of a 1D array.
+Enter array size: 5
+Enter array elements:
+a[0] = 12
+a[1] = 42
+a[2] = 18
+a[3] = 50
+a[4] = 26
+*/
 #include <stdio.h>
-int main(int argc, char const *argv[])
+int main()
 {
-    int size;
-    printf("Enter Array Size :");
-    scanf("%d", &size);
-    printf("\n\n --:Array of 01:-- \n");
+    int n, i, j, sum = 0;
+    printf("Enter Array Size:\n");
+    scanf("%d", &n);
 
-    int a[size], b[size], marge[size];
-    for (size_t i = 0; i < size; i++)
-    {
-        printf("Enter a[%d]:", i);
-        scanf("%d", &a[i]);
-    }
-    printf("\n\n --:Array of 02:-- \n");
-    for (size_t i = 0; i < size; i++)
-    {
-        printf("Enter b[%d]:", i);
-        scanf("%d", &b[i]);
-    }
-    printf("\n\n --:Marge of Array:-- \n");
-    for (size_t i = 0; i < size; i++)
-    {
-        marge[] = a[i] + b[i];
-        printf("Marge [%d] =%d\n", i, marge[i],a,b);
-    }
+    int array[n];
 
-    return 0;
+    for (int i = 0; i < n; i++)
+    {
+        printf("Enter Value [%d]:", i);
+        scanf("%d", &array[i]);
+    }
+    for (i = 0; i < n; i++)
+    {
+        sum += array[i];
+        
+    }
+    printf("Avarage is = [%d]\n", sum/n,sum);
 }

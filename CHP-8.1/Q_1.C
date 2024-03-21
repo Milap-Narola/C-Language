@@ -1,30 +1,26 @@
+/*
+Q.1 Write a Program to find the length of a 1D array.
+Enter array size: 5
+Enter array elements:
+a[0] = 3
+a[1] = 7
+a[2] = 1
+a[3] = 8
+a[4] = 6*/
 #include <stdio.h>
-int main(int argc, char const *argv[])
+int main()
 {
-    int size;
-    printf("Enter Array Size :");
-     scanf("%d", &size);
-   
-   printf("\n\n --:Array of 01:-- \n"); 
-    
-     int a[size], b[size], sum[size];
-    for (size_t i = 0; i < size; i++)
-    {
-        printf("Enter a[%d]:",i);
-        scanf("%d", &a[i]);
-    }
-    printf("\n\n --:Array of 02:-- \n");
-    for (size_t i = 0; i < size; i++)
-    {
-        printf("Enter b[%d]:",i);
-        scanf("%d", &b[i]);
-    }
-    printf("\n\n --:Sum of Array:-- \n");
-    for (size_t i = 0; i < size; i++)
-    {
-        sum[i] = a[i] + b[i];
-        printf("Sum [%d] =%d\n", i, sum[i]);
-    }
+    int size, i, j;
+    printf("Enter Array Size:");
+    scanf("%d", &size);
+    int array[size];
 
-    return 0;
+    for (int i = 0; i < size; i++)
+    {
+        printf("Enter Value [%d]:", i );
+        scanf("%d", &array[i]);
+    }
+    printf("\n\n");
+    for (i = 0; i < size; i++)
+        printf("Value [%d] = %d\n", i, array[i]);
 }
