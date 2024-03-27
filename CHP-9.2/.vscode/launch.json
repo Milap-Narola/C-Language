@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Milap/C-Language/CHP-9.2",
+      "program": "/Users/Milap/C-Language/CHP-9.2/build/Debug/outDebug"
+    }
+  ]
+}
