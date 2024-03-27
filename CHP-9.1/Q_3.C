@@ -8,12 +8,12 @@ int main()
 {
     char name[20];
     printf("Enter Name :");
-    scanf("%s", &name);
+    scanf("%[^\n]", &name);
     int i, len = 0;
 
     for (i = 0; name[i] != '\0'; i++)
         len++;
-    printf("%s\n", name);
+    // printf("%s\n", name);
     // printf("%s => %d", name, len);
     for (i = 0; i < len; i++)
     {
