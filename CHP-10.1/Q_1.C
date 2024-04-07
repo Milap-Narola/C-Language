@@ -15,7 +15,7 @@ int main()
     int n;
     printf("Enter Any Number:");
     scanf("%d", &n);
-    int result = cuBe(5);
-    printf("5 Cubed is : %d\n", result);
+    int result = cuBe(n);
+    printf("Cubed is : %d\n", result);
     return 0;
 }

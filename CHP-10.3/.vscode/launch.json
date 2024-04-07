@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/Milap/C-Language",
-      "program": "/Users/Milap/C-Language/build/Debug/outDebug"
+      "cwd": "/Users/Milap/C-Language/CHP-10.3",
+      "program": "/Users/Milap/C-Language/CHP-10.3/build/Debug/outDebug"
     }
   ]
 }
