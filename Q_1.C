@@ -21,6 +21,7 @@ struct student
 
 int main()
 {
+    
     struct student s1[3];
     for (int i = 0; i < 3; ++i)
     {
